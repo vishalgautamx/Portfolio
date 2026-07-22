@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Projects | Vishal Kumar</title>
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#081b29;
+    color:#fff;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:48px;
+    color:#00abf0;
+}
+
+header p{
+    margin-top:15px;
+    color:#ccc;
+    font-size:18px;
+}
+.coming-soon{
+    margin-top:20px;
+    display:inline-block;
+    padding:12px 25px;
+    border:2px solid #00abf0;
+    border-radius:30px;
+    color:#00abf0;
+    font-size:18px;
+    font-weight:600;
+    letter-spacing:1px;
+    animation: glow 2s infinite;
+}
+
+@keyframes glow{
+    0%{
+        box-shadow:0 0 5px #00abf0;
+    }
+    50%{
+        box-shadow:0 0 20px #00abf0,0 0 40px #00abf0;
+    }
+    100%{
+        box-shadow:0 0 5px #00abf0;
+    }
+}
+
+.projects{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    padding:40px 0 80px;
+}
+
+.card{
+
+    background:#112e42;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.4s;
+    box-shadow:0 0 15px rgba(0,171,240,.2);
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0 0 30px #00abf0;
+
+}
+
+.card img{
+
+    width:100%;
+    height:220px;
+    object-fit:cover;
+
+}
+
+.content{
+
+    padding:25px;
+
+}
+
+.content h2{
+
+    color:#00abf0;
+    margin-bottom:15px;
+
+}
+
+.content p{
+
+    color:#ddd;
+    line-height:1.7;
+    margin-bottom:20px;
+
+}
+
+.tech{
+
+    margin-bottom:20px;
+}
+
+.tech span{
+
+    display:inline-block;
+    margin:5px;
+    padding:6px 12px;
+    background:#00abf0;
+    color:#081b29;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+
+}
+
+.buttons{
+
+    display:flex;
+    gap:15px;
+
+}
+
+.buttons a{
+
+    flex:1;
+    text-align:center;
+    text-decoration:none;
+    padding:12px;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.demo{
+
+    background:#00abf0;
+    color:#081b29;
+
+}
+
+.demo:hover{
+
+    background:#fff;
+
+}
+
+.github{
+
+    border:2px solid #00abf0;
+    color:#00abf0;
+
+}
+
+.github:hover{
+
+    background:#00abf0;
+    color:#081b29;
+
+}
+
+.back{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.back a{
+
+    text-decoration:none;
+    padding:14px 35px;
+    background:#00abf0;
+    color:#081b29;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+
+}
+
+.back a:hover{
+
+    background:#fff;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="coming-soon">
+        🚀 More Exciting Projects Coming Soon...
+    </div>
+
+
+<h1>My Projects</h1>
+
+<p>Explore my latest web development and Python projects.</p>
+
+</header>
+
+<section class="projects">
+
+<div class="card">
+
+<img src="images/weather.png">
+
+<div class="content">
+
+<h2>Weather App</h2>
+
+<p>A weather application using Python and OpenWeather API that displays live weather updates.</p>
+
+<div class="tech">
+
+<span>Python</span>
+
+<span>API</span>
+
+<span>HTML</span>
+
+</div>
+
+<div class="buttons">
+
+<a href="#" class="demo">Live Demo</a>
+
+<a href="#" class="github">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="images/news.png">
+
+<div class="content">
+
+<h2>News App</h2>
+
+<p>News application that fetches the latest headlines using News API with Python.</p>
+
+<div class="tech">
+
+<span>Python</span>
+
+<span>API</span>
+
+<span>JSON</span>
+
+</div>
+
+<div class="buttons">
+
+<a href="#" class="demo">Live Demo</a>
+
+<a href="#" class="github">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="images/portfolio.png">
+
+<div class="content">
+
+<h2>Portfolio Website</h2>
+
+<p>Modern responsive portfolio built using HTML, CSS and JavaScript.</p>
+
+<div class="tech">
+
+<span>HTML</span>
+
+<span>CSS</span>
+
+<span>JavaScript</span>
+
+</div>
+
+<div class="buttons">
+
+<a href="#" class="demo">Live Demo</a>
+
+<a href="#" class="github">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="images/ecommerce.png">
+
+<div class="content">
+
+<h2>E-Commerce Website</h2>
+
+<p>Responsive shopping website with beautiful UI and product pages.</p>
+
+<div class="tech">
+
+<span>HTML</span>
+
+<span>CSS</span>
+
+<span>JavaScript</span>
+
+</div>
+
+<div class="buttons">
+
+<a href="#" class="demo">Live Demo</a>
+
+<a href="#" class="github">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="images/student.png">
+
+<div class="content">
+
+<h2>Student Management</h2>
+
+<p>CRUD application for managing student records using Python and MySQL.</p>
+
+<div class="tech">
+
+<span>Python</span>
+
+<span>MySQL</span>
+
+<span>Django</span>
+
+</div>
+
+<div class="buttons">
+
+<a href="#" class="demo">Live Demo</a>
+
+<a href="#" class="github">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="images/todo.png">
+
+<div class="content">
+
+<h2>To-Do App</h2>
+
+<p>Task management application with add, edit and delete functionality.</p>
+
+<div class="tech">
+
+<span>JavaScript</span>
+
+<span>CSS</span>
+
+<span>HTML</span>
+
+</div>
+
+<div class="buttons">
+
+<a href="#" class="demo">Live Demo</a>
+
+<a href="#" class="github">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="back">
+
+<a href="D:\Vishal_portfolio\index.html">
+<i class='bx bx-arrow-back'></i>
+ Back to Portfolio
+</a>
+
+</div>
+
+</body>
+</html>
